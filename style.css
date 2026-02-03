@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: #3333DD;
+}
+
+h1#inicio {
+    text-align: center;
+    background-color: #232399;
+    color: white;
+}
+
+h2 {
+    color: #232399;
+}
+h3 {
+    color: #3637E6;
+}
+a {
+    color: black;
+}
+p {
+    text-indent: 10px;
+}
