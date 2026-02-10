@@ -107,11 +107,14 @@ footer {
   color: #4A3F35;
 }
 
-a > span.aviso {
+.aviso {
   font-family: "Palatino Linotype", "Georgia", serif;
   color: #4A3F35;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
+  display: block;
+}
+a > span.aviso {
   display: none;
 }
 a:hover > span.aviso {
