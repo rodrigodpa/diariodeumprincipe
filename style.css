@@ -41,6 +41,7 @@ p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
   text-align: justify;
+  text-indent: 16px;
 }
 
 /* -------- LINKS -------- */
@@ -56,6 +57,9 @@ a:hover {
   border-color: #8C6B4D;
 }
 
+a[href^="http"]::after {
+  content: " 🔗";
+}
 /* -------- LISTAS -------- */
 ul, ol {
   margin-left: 1.5rem;
@@ -101,4 +105,15 @@ footer {
   margin-top: 3rem;
   font-size: 0.9rem;
   color: #4A3F35;
+}
+
+a > span.aviso {
+  font-family: "Palatino Linotype", "Georgia", serif;
+  color: #4A3F35;
+  font-size: 2em;
+  font-weight: bold;
+  display: none;
+}
+a:hover > span.aviso {
+  display: block;
 }
