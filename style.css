@@ -18,6 +18,7 @@ body {
   padding: 2rem 1rem;
   max-width: 860px;
   margin: auto;
+  
 }
 
 /* -------- TIPOGRAFIA -------- */
@@ -125,4 +126,16 @@ a > span.aviso {
 }
 a:hover > span.aviso {
   display: block;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        text-align: left; /* Justificado em celular às vezes cria buracos brancos */
+        text-indent: 0;
+    }
 }
