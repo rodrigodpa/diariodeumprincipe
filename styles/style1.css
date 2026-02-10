@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", "Helvetica", sans-serif;
+  background-color: #FFFFFF;
+  color: #222222;
+  max-width: 780px;
+  margin: auto;
+  padding: 2.5rem 1.5rem;
+  line-height: 1.8;
+}
+
+h1, h2 {
+  color: #111111;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.05rem;
+  margin-bottom: 1.3rem;
+}
+
+a {
+  color: #2A5DB0;
+  text-decoration: underline;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: #E5E5E5;
+  margin: 2rem 0;
+}
