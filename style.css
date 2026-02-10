@@ -60,6 +60,12 @@ a:hover {
 a[href^="http"]::after {
   content: " 🔗";
 }
+a.pendente:hover::after {
+  content: "Em manutenção";
+  font-size: 1.5em;
+  display: block;
+  color: #4A3F35;
+}
 /* -------- LISTAS -------- */
 ul, ol {
   margin-left: 1.5rem;
